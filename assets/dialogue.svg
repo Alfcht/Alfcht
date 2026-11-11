@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 190" width="900" height="190" shape-rendering="crispEdges">
+  <style>
+    .t { font-family: 'Courier New', Courier, monospace; font-weight: bold; }
+    .c1 { animation: r1 12s steps(37, end) infinite; }
+    .c2 { animation: r2 12s steps(40, end) infinite; }
+    @keyframes r1 {
+      0% { transform: translateX(0) } 20% { transform: translateX(450px) }
+      95% { transform: translateX(450px) } 95.1% { transform: translateX(0) } 100% { transform: translateX(0) }
+    }
+    @keyframes r2 {
+      0% { transform: translateX(0) } 25% { transform: translateX(0) } 50% { transform: translateX(490px) }
+      95% { transform: translateX(490px) } 95.1% { transform: translateX(0) } 100% { transform: translateX(0) }
+    }
+    .blink { animation: bl 1s steps(1) infinite; }
+    @keyframes bl { 0% { opacity: 1 } 50% { opacity: 0 } 100% { opacity: 1 } }
+  </style>
+
+  <rect x="20" y="30" width="860" height="140" fill="#0b1026"/>
+
+  <text class="t" x="44" y="90"  font-size="20" fill="#dfe6f5">Ah... a traveler at this late hour.</text>
+  <text class="t" x="44" y="130" font-size="20" fill="#dfe6f5">The moon is high. Shall we make a game?</text>
+
+  <!-- covers that slide away to "type" the text -->
+  <rect class="c1" x="44" y="66"  width="450" height="32" fill="#0b1026"/>
+  <rect class="c2" x="44" y="106" width="490" height="32" fill="#0b1026"/>
+
+  <!-- pixel borders -->
+  <rect x="20" y="30" width="860" height="140" fill="none" stroke="#e8c97a" stroke-width="4"/>
+  <rect x="28" y="38" width="844" height="124" fill="none" stroke="#1b2a5c" stroke-width="2"/>
+
+  <!-- name tag -->
+  <rect x="40" y="14" width="150" height="34" fill="#b3202f" stroke="#e8c97a" stroke-width="3"/>
+  <text class="t" x="115" y="38" font-size="18" fill="#ffffff" text-anchor="middle">WITCH</text>
+
+  <!-- next arrow -->
+  <polygon class="blink" points="840,142 860,142 850,154" fill="#e8c97a"/>
+</svg>
