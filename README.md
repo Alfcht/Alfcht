@@ -1,22 +1,79 @@
-<h1 align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=ALFCHT&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Game%20Developer&descAlignY=55" />
-</h1>
+<p align="center">
+  <img src="assets/pixel-banner.svg" width="100%" />
+</p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=16&duration=3000&pause=800&color=00FF9C&center=true&vCenter=true&width=600&lines=Hello%2C+Player+One!;I+build+games+%F0%9F%8E%AE;Unity+%7C+Unreal+%7C+Godot;Press+START+to+explore" />
+  <img src="assets/dialogue.svg" width="100%" />
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=12&duration=3000&pause=900&color=E8C97A&center=true&vCenter=true&width=700&lines=%E2%96%B6+NEW+GAME+STARTED;CLASS%3A+GAME+DEVELOPER;MAIN%3A+UNITY+%7C+SUB%3A+UNREAL;THE+NIGHT+IS+YOUNG..." />
+</p>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0b1026,50:b3202f,100:0b1026&height=3" width="100%" />
+
+## STATUS SCREEN
+
+```
+┌──────────────────────────────┐
+│ NAME   : ALFCHT              │
+│ CLASS  : Game Developer      │
+├──────────────────────────────┤
+│ UNITY   [█████████░] MAIN    │
+│ UNREAL  [███████░░░] SUB     │
+│ C#      [████████░░]         │
+│ C++     [█████░░░░░]         │
+│ PYTHON  [██████░░░░]         │
+│ JS      [████░░░░░░]         │
+│ JAVA    [███████░░░]         │
+└──────────────────────────────┘
+```
+
+## INVENTORY
+
+## INVENTORY
+
+<p align="center">
+  <img src="https://img.shields.io/badge/UNITY-MAIN-0b1026?style=flat-square&logo=unity&logoColor=dfe6f5&labelColor=1b2a5c" />
+  <img src="https://img.shields.io/badge/UNREAL-SUB-0b1026?style=flat-square&logo=unrealengine&logoColor=dfe6f5&labelColor=1b2a5c" />
+  <img src="https://img.shields.io/badge/C%23-b3202f?style=flat-square&logo=csharp&logoColor=white" />
+  <img src="https://img.shields.io/badge/C++-b3202f?style=flat-square&logo=cplusplus&logoColor=white" />
+  <img src="https://img.shields.io/badge/PYTHON-b3202f?style=flat-square&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/JAVASCRIPT-b3202f?style=flat-square&logo=javascript&logoColor=white" />
+  <img src="https://img.shields.io/badge/JAVA-b3202f?style=flat-square&logo=openjdk&logoColor=white" />
+  <img src="https://img.shields.io/badge/GIT-0b1026?style=flat-square&logo=git&logoColor=e8c97a&labelColor=1b2a5c" />
+</p>
+
+## QUEST LOG
+
+- [x] Create my profile
+- [ ] Build my first Unity prototype
+- [ ] Join a game jam
+- [ ] Make a small Unreal level
+- [ ] Publish a game on itch.io
+
+## SAVE SLOTS
+
+| Slot | File | Engine | Status |
+|:---:|:---|:---:|:---:|
+| 01 | `GRAPPLE DASH` | Unity | In Development |
+| 02 | `TIME ATTACK RACER` | Unity | To be Upgraded |
+| 03 | `SHAPES ATTACK` | Unity | To be Upgraded |
+
+## PLAYER DATA
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Alfcht&show_icons=true&title_color=e8c97a&text_color=dfe6f5&icon_color=b3202f&bg_color=0b1026&border_color=1b2a5c" />
 </p>
 <p align="center">
-  <img src="https://img.shields.io/badge/Unity-000000?style=for-the-badge&logo=unity&logoColor=white" />
-  <img src="https://img.shields.io/badge/Unreal_Engine-0E1128?style=for-the-badge&logo=unrealengine&logoColor=white" />
-  <img src="https://img.shields.io/badge/Godot-478CBF?style=for-the-badge&logo=godotengine&logoColor=white" />
-  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white" />
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
-  <img src="https://img.shields.io/badge/Blender-F5792A?style=for-the-badge&logo=blender&logoColor=white" />
+  <img src="https://github-readme-stats.vercel.app/api?username=YOURUSERNAME&show_icons=true&title_color=e8c97a&text_color=dfe6f5&icon_color=b3202f&bg_color=0b1026&border_color=1b2a5c" />
 </p>
+
 <p align="center">
-  <img src="assets/gameplay.gif" width="600" />
+  <img src="https://raw.githubusercontent.com/Alfcht/Alfcht/output/snake.svg" />
 </p>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0b1026,50:b3202f,100:0b1026&height=3" width="100%" />
+
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ALFCHT&show_icons=true&theme=radical&hide_border=true" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOURUSERNAME&theme=radical&hide_border=true" />
+  <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=10&duration=2500&pause=1200&color=DFE6F5&center=true&vCenter=true&width=500&lines=CONTINUE%3F+9...+8...+7...;%E2%9C%A6+THANKS+FOR+PLAYING+%E2%9C%A6" />
 </p>
