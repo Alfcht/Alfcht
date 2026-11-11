@@ -40,18 +40,10 @@
 </p>
 
 ## PLAYER DATA
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Alfcht&show_icons=true&title_color=e8c97a&text_color=dfe6f5&icon_color=b3202f&bg_color=0b1026&border_color=1b2a5c" />
-</p>
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOURUSERNAME&show_icons=true&title_color=e8c97a&text_color=dfe6f5&icon_color=b3202f&bg_color=0b1026&border_color=1b2a5c" />
-</p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Alfcht/Alfcht/output/snake.svg" />
+  <img src="assets/contribution-explosion.svg" width="100%" />
 </p>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0b1026,50:b3202f,100:0b1026&height=3" width="100%" />
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=10&duration=2500&pause=1200&color=DFE6F5&center=true&vCenter=true&width=500&lines=CONTINUE%3F+9...+8...+7...;%E2%9C%A6+THANKS+FOR+VISITING+%E2%9C%A6" />
