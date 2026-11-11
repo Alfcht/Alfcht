@@ -1,0 +1,189 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 250" width="900" height="250" shape-rendering="crispEdges">
+  <defs>
+    <clipPath id="win"><rect x="0" y="0" width="600" height="120"/></clipPath>
+    <linearGradient id="sh" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#07040d" stop-opacity="0.95"/>
+      <stop offset="0.22" stop-color="#07040d" stop-opacity="0"/>
+      <stop offset="0.78" stop-color="#07040d" stop-opacity="0"/>
+      <stop offset="1" stop-color="#07040d" stop-opacity="0.95"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .t { font-family: 'Courier New', Courier, monospace; font-weight: bold; }
+    .head { font-size: 22px; fill: #e8c97a; letter-spacing: 8px; }
+    .title { font-size: 28px; fill: #e8c97a; }
+    .dur { font-size: 22px; fill: #dfe6f5; }
+
+    /* 12s loop = 4 jobs x 3s: hold 2.4s, spin 0.6s */
+    .reel { animation: spin 12s linear infinite; }
+    @keyframes spin {
+      0%   { transform: translateY(0) }
+      20%  { transform: translateY(0);      animation-timing-function: steps(6) }
+      25%  { transform: translateY(-120px) }
+      45%  { transform: translateY(-120px); animation-timing-function: steps(6) }
+      50%  { transform: translateY(-240px) }
+      70%  { transform: translateY(-240px); animation-timing-function: steps(6) }
+      75%  { transform: translateY(-360px) }
+      95%  { transform: translateY(-360px); animation-timing-function: steps(6) }
+      100% { transform: translateY(-480px) }
+    }
+
+    .lever { animation: pull 12s steps(3) infinite; }
+    @keyframes pull {
+      0%, 15%  { transform: translateY(0) }
+      18%      { transform: translateY(22px) }
+      22%, 40% { transform: translateY(0) }
+      43%      { transform: translateY(22px) }
+      47%, 65% { transform: translateY(0) }
+      68%      { transform: translateY(22px) }
+      72%, 90% { transform: translateY(0) }
+      93%      { transform: translateY(22px) }
+      97%, 100% { transform: translateY(0) }
+    }
+
+    .a { animation: lamp 1s steps(1) infinite; }
+    .b { animation: lamp 1s steps(1) infinite; animation-delay: .5s; }
+    @keyframes lamp { 0% { opacity: 1 } 50% { opacity: .2 } 100% { opacity: 1 } }
+  </style>
+
+  <!-- panel -->
+  <rect x="12" y="12" width="876" height="226" fill="#0b1026" stroke="#e8c97a" stroke-width="4"/>
+  <text class="t head" x="450" y="58" text-anchor="middle">EXPERIENCE</text>
+
+  <!-- blinking lamps -->
+  <g stroke="#e8c97a" stroke-width="8" stroke-dasharray="8 32">
+    <line class="a" x1="40" y1="26" x2="860" y2="26"/>
+    <line class="b" x1="40" y1="26" x2="860" y2="26" stroke-dashoffset="-20"/>
+    <line class="a" x1="40" y1="216" x2="860" y2="216"/>
+    <line class="b" x1="40" y1="216" x2="860" y2="216" stroke-dashoffset="-20"/>
+  </g>
+  <g stroke="#b3202f" stroke-width="8" stroke-dasharray="8 24">
+    <line class="a" x1="64" y1="92" x2="64" y2="172"/>
+    <line class="b" x1="64" y1="92" x2="64" y2="172" stroke-dashoffset="-16"/>
+  </g>
+
+  <!-- payline arrows -->
+  <polygon points="128,112 148,132 128,152" fill="#e8c97a"/>
+  <polygon points="772,112 752,132 772,152" fill="#e8c97a"/>
+
+  <!-- reel window -->
+  <rect x="150" y="72" width="600" height="120" fill="#07040d"/>
+  <g transform="translate(150 72)">
+    <g clip-path="url(#win)">
+      <g class="reel">
+
+        <!-- 1: GAME DEVELOPER -->
+        <g transform="translate(0 0)">
+          <g transform="translate(50 32)">
+            <g fill="#dfe6f5">
+              <rect x="16" y="0" width="48" height="8"/>
+              <rect x="8" y="8" width="64" height="8"/>
+              <rect x="0" y="16" width="80" height="24"/>
+              <rect x="0" y="40" width="32" height="8"/>
+              <rect x="48" y="40" width="32" height="8"/>
+              <rect x="0" y="48" width="24" height="8"/>
+              <rect x="56" y="48" width="24" height="8"/>
+            </g>
+            <rect x="16" y="16" width="8" height="24" fill="#0b1026"/>
+            <rect x="8" y="24" width="24" height="8" fill="#0b1026"/>
+            <rect x="56" y="18" width="8" height="8" fill="#b3202f"/>
+            <rect x="66" y="28" width="8" height="8" fill="#e8c97a"/>
+          </g>
+          <text class="t title" x="170" y="58">GAME DEVELOPER</text>
+          <text class="t dur" x="170" y="92">1 YEAR</text>
+        </g>
+
+        <!-- 2: SOFTWARE DEVELOPER -->
+        <g transform="translate(0 120)">
+          <g transform="translate(46 28)">
+            <g fill="#e8c97a">
+              <rect x="24" y="0" width="8" height="8"/><rect x="16" y="8" width="8" height="8"/>
+              <rect x="8" y="16" width="8" height="8"/><rect x="0" y="24" width="8" height="8"/>
+              <rect x="8" y="32" width="8" height="8"/><rect x="16" y="40" width="8" height="8"/>
+              <rect x="24" y="48" width="8" height="8"/>
+              <rect x="56" y="0" width="8" height="8"/><rect x="64" y="8" width="8" height="8"/>
+              <rect x="72" y="16" width="8" height="8"/><rect x="80" y="24" width="8" height="8"/>
+              <rect x="72" y="32" width="8" height="8"/><rect x="64" y="40" width="8" height="8"/>
+              <rect x="56" y="48" width="8" height="8"/>
+            </g>
+            <g fill="#b3202f">
+              <rect x="44" y="0" width="8" height="12"/><rect x="40" y="12" width="8" height="12"/>
+              <rect x="36" y="24" width="8" height="12"/><rect x="32" y="36" width="8" height="12"/>
+            </g>
+          </g>
+          <text class="t title" x="170" y="58">SOFTWARE DEVELOPER</text>
+          <text class="t dur" x="170" y="92">8 MONTHS</text>
+        </g>
+
+        <!-- 3: CYBERSECURITY -->
+        <g transform="translate(0 240)">
+          <g transform="translate(50 28)">
+            <g fill="#b3202f">
+              <rect x="8" y="0" width="64" height="8"/>
+              <rect x="0" y="8" width="80" height="32"/>
+              <rect x="8" y="40" width="64" height="8"/>
+              <rect x="16" y="48" width="48" height="8"/>
+              <rect x="24" y="56" width="32" height="8"/>
+            </g>
+            <rect x="8" y="8" width="8" height="24" fill="#e8c97a"/>
+            <rect x="32" y="14" width="16" height="14" fill="#0b1026"/>
+            <rect x="36" y="28" width="8" height="14" fill="#0b1026"/>
+          </g>
+          <text class="t title" x="170" y="58">CYBERSECURITY</text>
+          <text class="t dur" x="170" y="92">2 MONTHS</text>
+        </g>
+
+        <!-- 4: REAL ESTATE -->
+        <g transform="translate(0 360)">
+          <g transform="translate(50 28)">
+            <g fill="#b3202f">
+              <rect x="52" y="4" width="8" height="12"/>
+              <rect x="32" y="0" width="16" height="8"/>
+              <rect x="24" y="8" width="32" height="8"/>
+              <rect x="16" y="16" width="48" height="8"/>
+              <rect x="8" y="24" width="64" height="8"/>
+              <rect x="0" y="32" width="80" height="8"/>
+            </g>
+            <rect x="8" y="40" width="64" height="24" fill="#dfe6f5"/>
+            <rect x="32" y="48" width="16" height="16" fill="#0b1026"/>
+            <rect x="16" y="46" width="8" height="8" fill="#e8c97a"/>
+            <rect x="56" y="46" width="8" height="8" fill="#e8c97a"/>
+          </g>
+          <text class="t title" x="170" y="58">REAL ESTATE</text>
+          <text class="t dur" x="170" y="92">VETERAN CLASS</text>
+        </g>
+
+        <!-- copy of 1 so the loop is seamless -->
+        <g transform="translate(0 480)">
+          <g transform="translate(50 32)">
+            <g fill="#dfe6f5">
+              <rect x="16" y="0" width="48" height="8"/>
+              <rect x="8" y="8" width="64" height="8"/>
+              <rect x="0" y="16" width="80" height="24"/>
+              <rect x="0" y="40" width="32" height="8"/>
+              <rect x="48" y="40" width="32" height="8"/>
+              <rect x="0" y="48" width="24" height="8"/>
+              <rect x="56" y="48" width="24" height="8"/>
+            </g>
+            <rect x="16" y="16" width="8" height="24" fill="#0b1026"/>
+            <rect x="8" y="24" width="24" height="8" fill="#0b1026"/>
+            <rect x="56" y="18" width="8" height="8" fill="#b3202f"/>
+            <rect x="66" y="28" width="8" height="8" fill="#e8c97a"/>
+          </g>
+          <text class="t title" x="170" y="58">GAME DEVELOPER</text>
+          <text class="t dur" x="170" y="92">1 YEAR</text>
+        </g>
+
+      </g>
+    </g>
+    <rect width="600" height="120" fill="url(#sh)"/>
+  </g>
+  <rect x="148" y="70" width="604" height="124" fill="none" stroke="#e8c97a" stroke-width="4"/>
+
+  <!-- lever -->
+  <rect x="806" y="138" width="28" height="16" fill="#5a4a2a"/>
+  <g class="lever">
+    <rect x="816" y="96" width="8" height="42" fill="#cfd8ee"/>
+    <rect x="810" y="84" width="20" height="16" fill="#b3202f"/>
+  </g>
+</svg>
