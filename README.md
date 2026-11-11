@@ -12,23 +12,11 @@
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0b1026,50:b3202f,100:0b1026&height=3" width="100%" />
 
-## STATUS SCREEN
+## STATUS
 
-```
-┌──────────────────────────────┐
-│ NAME   : ALFCHT              │
-│ CLASS  : Game Developer      │
-├──────────────────────────────┤
-│ UNITY   [█████████░] MAIN    │
-│ UNREAL  [███████░░░] SUB     │
-│ C#      [████████░░]         │
-│ C++     [█████░░░░░]         │
-│ PYTHON  [██████░░░░]         │
-│ JS      [████░░░░░░]         │
-│ JAVA    [███████░░░]         │
-└──────────────────────────────┘
-```
-
+<p align="center">
+  <img src="assets/status-screen.svg" width="100%" />
+</p>
 ## INVENTORY
 
 <p align="center">
