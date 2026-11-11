@@ -37,8 +37,7 @@
   <rect x="12" y="12" width="472" height="276" fill="#0b1026" stroke="#e8c97a" stroke-width="4"/>
 
   <text class="t lbl" x="34" y="44">NAME   : ALFCHT</text>
-  <text class="t lbl" x="34" y="68">CLASS  : Game Developer</text>
-  <text class="t lbl" x="34" y="92">TITLE  : Holy Night Witch</text>
+  <text class="t lbl" x="34" y="68">CLASS  : GAME DEVELOPER</text>
   <rect x="24" y="102" width="448" height="2" fill="#e8c97a"/>
 
   <!-- bars: background track, then filled part (20px per level) -->
