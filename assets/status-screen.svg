@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" width="900" height="300" shape-rendering="crispEdges">
+  <style>
+    .t { font-family: 'Courier New', Courier, monospace; font-weight: bold; }
+    .lbl { font-size: 16px; fill: #dfe6f5; }
+    .tag { font-size: 14px; fill: #e8c97a; }
+
+    .bob { animation: bob 2s steps(1) infinite; }
+    @keyframes bob { 0% { transform: translateY(0) } 50% { transform: translateY(3px) } 100% { transform: translateY(0) } }
+
+    .pulse { animation: pulse 3s steps(6) infinite; }
+    @keyframes pulse { 0%, 100% { opacity: .15 } 50% { opacity: .75 } }
+
+    .flame { animation: fl .6s steps(1) infinite; }
+    @keyframes fl {
+      0%   { fill: #e8c97a; transform: translateY(0) }
+      33%  { fill: #b3202f; transform: translateY(-2px) }
+      66%  { fill: #e8c97a; transform: translateY(1px) }
+      100% { fill: #e8c97a; transform: translateY(0) }
+    }
+
+    .eye { animation: blink 4s steps(1) infinite; }
+    @keyframes blink { 0% { opacity: 1 } 90% { opacity: 0 } 94% { opacity: 1 } 100% { opacity: 1 } }
+
+    .em { opacity: 0; animation: rise 5s linear infinite; }
+    @keyframes rise {
+      0%   { opacity: 0; transform: translateY(0) }
+      10%  { opacity: 1 }
+      100% { opacity: 0; transform: translateY(-170px) }
+    }
+    .e2 { animation-delay: .8s } .e3 { animation-delay: 1.6s } .e4 { animation-delay: 2.4s }
+    .e5 { animation-delay: 3.2s } .e6 { animation-delay: 4s }
+  </style>
+
+  <rect width="900" height="300" fill="#050816"/>
+
+  <!-- LEFT: status panel -->
+  <rect x="12" y="12" width="472" height="276" fill="#0b1026" stroke="#e8c97a" stroke-width="4"/>
+
+  <text class="t lbl" x="34" y="44">NAME   : ALFCHT</text>
+  <text class="t lbl" x="34" y="68">CLASS  : Game Developer</text>
+  <text class="t lbl" x="34" y="92">TITLE  : Holy Night Witch</text>
+  <rect x="24" y="102" width="448" height="2" fill="#e8c97a"/>
+
+  <!-- bars: background track, then filled part (20px per level) -->
+  <g fill="none" stroke-width="12" stroke-dasharray="18 2">
+    <g stroke="#1b2a5c">
+      <line x1="140" y1="123" x2="340" y2="123"/>
+      <line x1="140" y1="147" x2="340" y2="147"/>
+      <line x1="140" y1="171" x2="340" y2="171"/>
+      <line x1="140" y1="195" x2="340" y2="195"/>
+      <line x1="140" y1="219" x2="340" y2="219"/>
+      <line x1="140" y1="243" x2="340" y2="243"/>
+      <line x1="140" y1="267" x2="340" y2="267"/>
+    </g>
+    <g stroke="#b3202f">
+      <line x1="140" y1="123" x2="280" y2="123"/>
+      <line x1="140" y1="147" x2="200" y2="147"/>
+      <line x1="140" y1="171" x2="260" y2="171"/>
+      <line x1="140" y1="195" x2="200" y2="195"/>
+      <line x1="140" y1="219" x2="240" y2="219"/>
+      <line x1="140" y1="243" x2="220" y2="243"/>
+      <line x1="140" y1="267" x2="200" y2="267"/>
+    </g>
+  </g>
+
+  <text class="t lbl" x="34" y="128">UNITY</text>
+  <text class="t lbl" x="34" y="152">UNREAL</text>
+  <text class="t lbl" x="34" y="176">C#</text>
+  <text class="t lbl" x="34" y="200">C++</text>
+  <text class="t lbl" x="34" y="224">PYTHON</text>
+  <text class="t lbl" x="34" y="248">JS</text>
+  <text class="t lbl" x="34" y="272">JAVA</text>
+  <text class="t tag" x="352" y="128">MAIN</text>
+  <text class="t tag" x="352" y="152">SUB</text>
+
+  <!-- RIGHT: animated gothic scene -->
+  <g transform="translate(500 20)">
+    <rect width="370" height="260" fill="#07040d"/>
+
+    <!-- cathedral window -->
+    <path fill="#1a0a2e" d="M165 30H205V38H217V46H225V54H233V62H239V70H245V170H125V70H131V62H137V54H145V46H153V38H165Z"/>
+    <path class="pulse" fill="#b3202f" d="M165 30H205V38H217V46H225V54H233V62H239V70H245V170H125V70H131V62H137V54H145V46H153V38H165Z"/>
+    <rect x="183" y="30" width="4" height="140" fill="#07040d"/>
+    <rect x="125" y="100" width="120" height="4" fill="#07040d"/>
+    <!-- small cross above the arch -->
+    <rect x="183" y="6" width="4" height="20" fill="#e8c97a"/>
+    <rect x="175" y="12" width="20" height="4" fill="#e8c97a"/>
+
+    <!-- floor -->
+    <rect y="232" width="370" height="28" fill="#0f0a18"/>
+    <rect y="232" width="370" height="4" fill="#2a1a3a"/>
+
+    <!-- side candles -->
+    <rect x="33" y="228" width="14" height="4" fill="#5a4a2a"/>
+    <rect x="37" y="204" width="6" height="24" fill="#cfd8ee"/>
+    <rect class="flame" x="38" y="194" width="4" height="10"/>
+    <rect x="323" y="228" width="14" height="4" fill="#5a4a2a"/>
+    <rect x="327" y="204" width="6" height="24" fill="#cfd8ee"/>
+    <rect class="flame" x="328" y="194" width="4" height="10"/>
+
+    <!-- the penitent figure -->
+    <g class="bob" fill="#05030a">
+      <rect x="181" y="112" width="8" height="16"/>
+      <rect x="177" y="128" width="16" height="16"/>
+      <rect x="173" y="144" width="24" height="24"/>
+      <rect x="161" y="168" width="48" height="8"/>
+      <rect x="157" y="176" width="56" height="16"/>
+      <rect x="153" y="192" width="64" height="16"/>
+      <rect x="149" y="208" width="72" height="16"/>
+      <rect x="145" y="224" width="80" height="8"/>
+      <rect x="141" y="196" width="16" height="8"/>
+      <rect x="157" y="192" width="56" height="4" fill="#b3202f"/>
+      <rect x="145" y="228" width="80" height="4" fill="#b3202f"/>
+      <rect x="183" y="176" width="4" height="14" fill="#e8c97a"/>
+      <rect x="178" y="180" width="14" height="4" fill="#e8c97a"/>
+      <rect class="eye" x="178" y="152" width="4" height="4" fill="#e8c97a"/>
+      <rect class="eye" x="188" y="152" width="4" height="4" fill="#e8c97a"/>
+      <rect x="133" y="184" width="8" height="20" fill="#dfe6f5"/>
+      <rect class="flame" x="135" y="174" width="4" height="10"/>
+    </g>
+
+    <!-- rising embers -->
+    <rect class="em"    x="100" y="228" width="3" height="3" fill="#e8c97a"/>
+    <rect class="em e2" x="150" y="228" width="3" height="3" fill="#b3202f"/>
+    <rect class="em e3" x="215" y="228" width="3" height="3" fill="#e8c97a"/>
+    <rect class="em e4" x="260" y="228" width="3" height="3" fill="#b3202f"/>
+    <rect class="em e5" x="300" y="228" width="3" height="3" fill="#e8c97a"/>
+    <rect class="em e6" x="70"  y="228" width="3" height="3" fill="#b3202f"/>
+
+    <rect x="2" y="2" width="366" height="256" fill="none" stroke="#e8c97a" stroke-width="4"/>
+  </g>
+</svg>
