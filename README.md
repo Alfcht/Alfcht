@@ -25,18 +25,13 @@
   <img src="https://skillicons.dev/icons?i=unity,unreal,cs,cpp,py,js,java,git,blender,github,vscode,arduino&theme=dark&perline=6" />
 </p>
 
+
 ## EXPERIENCE
 
-```
-┌────────────────────────────────────┐
-│ CLASS               TIME SPENT     │
-├────────────────────────────────────┤
-│ Game Developer      1 Year         │
-│ Software Developer  8 Months       │
-│ CyberSecurity       2 Months       │
-│ Real Estate         2 Months       │
-└────────────────────────────────────┘
-```
+<p align="center">
+  <img src="assets/experience.svg" width="100%" />
+</p>
+
 
 ## SAVE SLOTS
 
