@@ -31,8 +31,6 @@
 
 ## INVENTORY
 
-## INVENTORY
-
 <p align="center">
   <img src="https://img.shields.io/badge/UNITY-MAIN-0b1026?style=flat-square&logo=unity&logoColor=dfe6f5&labelColor=1b2a5c" />
   <img src="https://img.shields.io/badge/UNREAL-SUB-0b1026?style=flat-square&logo=unrealengine&logoColor=dfe6f5&labelColor=1b2a5c" />
@@ -44,13 +42,18 @@
   <img src="https://img.shields.io/badge/GIT-0b1026?style=flat-square&logo=git&logoColor=e8c97a&labelColor=1b2a5c" />
 </p>
 
-## QUEST LOG
+## EXPERIENCE
 
-- [x] Create my profile
-- [ ] Build my first Unity prototype
-- [ ] Join a game jam
-- [ ] Make a small Unreal level
-- [ ] Publish a game on itch.io
+```
+┌────────────────────────────────────┐
+│ CLASS               TIME SPENT     │
+├────────────────────────────────────┤
+│ Game Developer      1 Year         │
+│ Software Developer  8 Months       │
+│ CyberSecurity       2 Months       │
+│ Real Estate         2 Months       │
+└────────────────────────────────────┘
+```
 
 ## SAVE SLOTS
 
