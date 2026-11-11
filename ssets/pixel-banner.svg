@@ -64,7 +64,7 @@
 
   <!-- title -->
   <text class="t" x="453" y="123" font-size="40" fill="#b3202f" text-anchor="middle">ALFCHT</text>
-  <text class="t" x="450" y="120" font-size="40" fill="#e8c97a" text-anchor="middle">YOUR NAME</text>
-  <text class="t" x="450" y="156" font-size="14" fill="#dfe6f5" text-anchor="middle" letter-spacing="2">UNITY x UNREAL // WITCH ON THE HOLY NIGHT</text>
-  <text class="t blink" x="450" y="205" font-size="16" fill="#dfe6f5" text-anchor="middle">- PRESS START -</text>
+  <text class="t" x="450" y="120" font-size="40" fill="#e8c97a" text-anchor="middle">ALFCHT</text>
+  <text class="t" x="450" y="156" font-size="14" fill="#dfe6f5" text-anchor="middle" letter-spacing="2">EVERYTHING DEVELOPER</text>
+  <text class="t blink" x="450" y="205" font-size="16" fill="#dfe6f5" text-anchor="middle">- UNDER DEVELOPMENT -</text>
 </svg>
