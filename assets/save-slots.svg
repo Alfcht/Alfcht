@@ -49,4 +49,77 @@
 
   <!-- SLOT 1 -->
   <g class="card s1">
-    <rect class="frame"
+    <rect class="frame" x="-110" y="62" width="220" height="120" fill="#07040d" stroke-width="4"/>
+    <text class="t tag" x="-94" y="84">SLOT 01</text>
+    <text class="t title" x="0" y="116" text-anchor="middle">GRAPPLE DASH</text>
+    <g class="det">
+      <rect x="-94" y="128" width="188" height="2" fill="#e8c97a"/>
+      <text class="t info" x="-94" y="150">ENGINE : UNITY</text>
+      <text class="t stat" x="-94" y="170">STATUS : IN DEVELOPMENT</text>
+    </g>
+  </g>
+
+  <!-- SLOT 2 -->
+  <g class="card s2">
+    <rect class="frame" x="-110" y="62" width="220" height="120" fill="#07040d" stroke-width="4"/>
+    <text class="t tag" x="-94" y="84">SLOT 02</text>
+    <text class="t title" x="0" y="116" text-anchor="middle">TIME ATTACK RACER</text>
+    <g class="det">
+      <rect x="-94" y="128" width="188" height="2" fill="#e8c97a"/>
+      <text class="t info" x="-94" y="150">ENGINE : UNITY</text>
+      <text class="t stat up" x="-94" y="170">STATUS : TO BE UPGRADED</text>
+    </g>
+  </g>
+
+  <!-- SLOT 3 -->
+  <g class="card s3">
+    <rect class="frame" x="-110" y="62" width="220" height="120" fill="#07040d" stroke-width="4"/>
+    <text class="t tag" x="-94" y="84">SLOT 03</text>
+    <text class="t title" x="0" y="116" text-anchor="middle">SHAPES ATTACK</text>
+    <g class="det">
+      <rect x="-94" y="128" width="188" height="2" fill="#e8c97a"/>
+      <text class="t info" x="-94" y="150">ENGINE : UNITY</text>
+      <text class="t stat up" x="-94" y="170">STATUS : TO BE UPGRADED</text>
+    </g>
+  </g>
+
+  <!-- SLOT 4 -->
+  <g class="card s4">
+    <rect class="frame" x="-110" y="62" width="220" height="120" fill="#07040d" stroke-width="4"/>
+    <text class="t tag" x="-94" y="84">SLOT 04</text>
+    <text class="t title" x="0" y="116" text-anchor="middle">VERTICAL SLICE</text>
+    <g class="det">
+      <rect x="-94" y="128" width="188" height="2" fill="#e8c97a"/>
+      <text class="t info" x="-94" y="150">ENGINE : UNREAL</text>
+      <text class="t stat" x="-94" y="170">STATUS : IN DEVELOPMENT</text>
+    </g>
+  </g>
+
+  <!-- SLOT 5 -->
+  <g class="card s5">
+    <rect class="frame" x="-110" y="62" width="220" height="120" fill="#07040d" stroke-width="4"/>
+    <text class="t tag" x="-94" y="84">SLOT 05</text>
+    <text class="t title" x="0" y="116" text-anchor="middle">REWIND TIME PUZZLE</text>
+    <g class="det">
+      <rect x="-94" y="128" width="188" height="2" fill="#e8c97a"/>
+      <text class="t info" x="-94" y="150">ENGINE : UNREAL</text>
+      <text class="t stat" x="-94" y="170">STATUS : IN DEVELOPMENT</text>
+    </g>
+  </g>
+
+  <!-- arrows -->
+  <g class="blink" fill="#e8c97a">
+    <rect x="40" y="114" width="8" height="8"/><rect x="32" y="122" width="8" height="8"/>
+    <rect x="24" y="130" width="8" height="8"/><rect x="32" y="138" width="8" height="8"/>
+    <rect x="40" y="146" width="8" height="8"/>
+    <rect x="852" y="114" width="8" height="8"/><rect x="860" y="122" width="8" height="8"/>
+    <rect x="868" y="130" width="8" height="8"/><rect x="860" y="138" width="8" height="8"/>
+    <rect x="852" y="146" width="8" height="8"/>
+  </g>
+
+  <!-- selector pointer under the center slot -->
+  <g class="blink" fill="#b3202f">
+    <rect x="446" y="188" width="8" height="8"/>
+    <rect x="438" y="196" width="24" height="8"/>
+  </g>
+</svg>
