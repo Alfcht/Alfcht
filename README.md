@@ -17,17 +17,12 @@
 <p align="center">
   <img src="assets/status-screen.svg" width="100%" />
 </p>
+
+
 ## INVENTORY
 
 <p align="center">
-  <img src="https://img.shields.io/badge/UNITY-MAIN-0b1026?style=flat-square&logo=unity&logoColor=dfe6f5&labelColor=1b2a5c" />
-  <img src="https://img.shields.io/badge/UNREAL-SUB-0b1026?style=flat-square&logo=unrealengine&logoColor=dfe6f5&labelColor=1b2a5c" />
-  <img src="https://img.shields.io/badge/C%23-b3202f?style=flat-square&logo=csharp&logoColor=white" />
-  <img src="https://img.shields.io/badge/C++-b3202f?style=flat-square&logo=cplusplus&logoColor=white" />
-  <img src="https://img.shields.io/badge/PYTHON-b3202f?style=flat-square&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/JAVASCRIPT-b3202f?style=flat-square&logo=javascript&logoColor=white" />
-  <img src="https://img.shields.io/badge/JAVA-b3202f?style=flat-square&logo=openjdk&logoColor=white" />
-  <img src="https://img.shields.io/badge/GIT-0b1026?style=flat-square&logo=git&logoColor=e8c97a&labelColor=1b2a5c" />
+  <img src="https://skillicons.dev/icons?i=unity,unreal,cs,cpp,py,js,java,git,blender,github,vscode,arduino&theme=dark&perline=6" />
 </p>
 
 ## EXPERIENCE
